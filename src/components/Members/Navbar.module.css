@@ -1,0 +1,20 @@
+.container {
+    height: 80px;
+    padding-top: 30px;
+}
+
+.wrapper {
+    max-width: 100%;
+}
+
+.icon {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+/* .icon i {
+    position: relative;
+} */

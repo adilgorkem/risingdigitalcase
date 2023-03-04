@@ -1,0 +1,41 @@
+.container {
+    height: 80px;
+    padding-top: 30px;
+}
+
+.users {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: x-large;
+    padding-right: 20px;
+}
+
+h5 {
+    margin: 0 10px;
+}
+
+.users i {
+    padding: 0 10px;
+}
+
+.icon1 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.icon2 {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+button {
+    border: none;
+    background-color: white;
+}

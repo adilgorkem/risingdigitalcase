@@ -1,0 +1,21 @@
+.head {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }
+    
+@media (max-width: 768px) {
+    .head {
+        margin: 5px 0;
+        padding: 0 0;
+      }
+    
+      .head h6 {
+        font-size: x-small;
+      }
+    
+      ul {
+        padding: 12px;
+        align-items: center;
+      }
+    }

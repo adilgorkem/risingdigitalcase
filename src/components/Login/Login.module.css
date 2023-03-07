@@ -1,4 +1,3 @@
-
 .login {
     margin: 0;
     display: flex;
@@ -35,6 +34,7 @@
     display: block;
     height: 20px;
 }
+
 .control input {
     display: block;
     height: 40px;
@@ -43,7 +43,7 @@
 .control.invalid input {
     background: #ffdbdb;
     border: 2px red solid;
-  }
+}
 
 .control2 {
     margin-top: 10px;
@@ -64,10 +64,9 @@
     border: 0px;
 }
 
-button:hover {
+.button button:hover {
     background-color: #125c86;
-    color: #ffdbdb;
-    cursor:pointer;
+    color: #ffdbdb;;
 }
 
 a {
@@ -77,4 +76,45 @@ a {
 
 a:hover {
     color: #125c86;
+}
+
+.checkbox label {
+    margin-left: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .login {
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .right {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .form {
+        width: 100%;
+        margin: 30px 10px;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .control label {
+        align-self: center;
+    }
+
+    .control input {
+        align-self: center;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 0;
+    }
 }

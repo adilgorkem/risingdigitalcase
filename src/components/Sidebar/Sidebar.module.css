@@ -12,7 +12,7 @@
 
 .icons1 button {
     height: 60px;
-    margin: 8px 2px;
+    margin: 8px 0;
     padding:0%;
 }
 
@@ -35,5 +35,17 @@ button {
 button:hover {
     background-color: white;
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.34);
+    color: #125c86;
+}
+
+@media (max-width: 768px) {
+
+   .icons1 button {
+    font-size: small;
+   }
+
+   .icons2 button {
+    font-size: small;
+   }
+
 }

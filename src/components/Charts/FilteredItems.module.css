@@ -1,0 +1,11 @@
+.item {
+    height: 60px;
+    margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+    .item {
+        font-size: 8px;
+        margin-top: 4px;
+    }
+    }

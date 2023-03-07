@@ -53,7 +53,7 @@ const Login = (props) => {
         <div className={classes.right}>
           <div className={classes.form}>
             <p>Welcome Back!</p>
-            <h2>Login to your account</h2>
+            <h3>Login to your account</h3>
             <form onSubmit={submitHandler}>
               <div className={`${classes.control} ${emailIsValid === false ? classes.invalid : ''
             }`}>

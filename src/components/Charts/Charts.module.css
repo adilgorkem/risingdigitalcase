@@ -1,6 +1,7 @@
 .wrapper {
-    height: 741px;
+    height: auto;
     width: 100vw;
+    margin: 0%;
     display: grid;
     grid-template-columns: 1fr 11fr;
     background-color: #f2f2f2;
@@ -13,6 +14,46 @@
 
 .container {
     height: 100%;
-    width: 100%;
     margin: 0% 0%;
+}
+
+.charts {
+    margin: 40px 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+}
+
+.piechart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100vw;
+        height: auto;
+        margin: 0 0;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .charts {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
 }

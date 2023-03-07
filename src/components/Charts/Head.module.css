@@ -1,7 +1,10 @@
 .container {
     height: 80px;
     padding-top: 30px;
+    margin: 0%;
+    width: 100vw;
 }
+
 
 .users {
     display: flex;
@@ -25,17 +28,63 @@ h5 {
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin: 0%;
 }
 
 .icon2 {
-    font-size: x-large;
+    font-size: large;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 0;
+    padding-left: 40px;
+}
+
+.icon2 input {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.icon2 input:focus {
+    background-color: rgb(236, 236, 236);
 }
 
 button {
     border: none;
     background-color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 40px;
+        padding-top: 5px;
+        margin-top: 0%;
+        margin-right: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .icon1 {
+        font-size: larger;
+        padding-top: 2px;
+    }
+
+    .icon2 {
+        font-size: medium;
+        padding-left: 0%;
+        margin-left: 16px;
+        padding-top: 2px;
+    }
+
+    input {
+        width: 70%;
+        font-size: 6px;
+    }
+
+    .users {
+        font-size: small;
+        justify-content: flex-end;
+    }
 }

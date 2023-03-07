@@ -15,7 +15,7 @@ export default function SideBar(props) {
         <button><i className="fa-solid fa-chart-pie"></i></button>
         </div>
         <div className={classes.icons2}>
-        <button><i className="fa-solid fa-gear"></i></button>
+        <button onClick={props.logOut}><i className="fa-solid fa-right-from-bracket"></i></button>
         </div>
     </Card>
   )
